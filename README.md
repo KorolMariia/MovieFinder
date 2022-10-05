@@ -9,7 +9,7 @@ To start the app do (development):
 * *npm start*
 
 I used:
-* ReactJS
+* ReactJS: functional components and hooks
 * Reduxjs/toolkit
 * React-routers
 * React-hook-form for validation form
