@@ -1,0 +1,16 @@
+.login-header {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  color: rgb(241, 208, 206);
+  border-radius: 5px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 16px;
+
+  h3 {
+    margin: 6px auto;
+    width: 120px;
+  }
+}

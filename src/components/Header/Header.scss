@@ -1,0 +1,12 @@
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(179, 54, 50);
+  margin-bottom: 10px;
+  padding: 0 30px;
+}
+
+.logo {
+  max-width: clamp(50px, calc(155 / 1360 * 100vw), 125px);
+}

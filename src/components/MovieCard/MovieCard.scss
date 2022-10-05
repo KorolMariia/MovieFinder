@@ -1,0 +1,91 @@
+.movie_info-title {  color: rgb(179, 54, 50);
+  margin-left: 100px;
+  margin-top: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.movie_info {
+  display: flex;
+  margin: 20px 50px 30px;
+  padding: 0 100px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+
+  &_pic {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      width: calc(400px / 1.5);
+      min-width: calc(400px / 1.5);
+      display: block;
+    }
+  }
+
+  &_description {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 20px;
+
+    &-title-overview {
+      margin: 20px 0 10px;
+    }
+
+    &-title {
+      margin-top: 20px;
+      color: rgb(179, 54, 50);
+    }
+
+    &-original_title {
+      font-size: 14px;
+      font-style: italic;
+      margin-bottom: 10px;
+      color: rgb(179, 54, 50);
+    }
+
+    &-release {
+      margin-bottom: 30px;
+      font-size: 12px;
+      color: grey;
+      font-style: italic;
+    }
+
+    &-overview {
+      font-size: 14px;
+      margin-bottom: 40px;
+      color: black;
+      line-height: 24px;
+    }
+
+    &-average {
+      font-size: 12px;
+      margin-top: 20px;
+      color: black;
+    }
+  }
+}
+
+.star {
+  color: rgb(179, 54, 50);
+}
+
+.remove {
+  margin-left: 20px;
+  color: rgb(179, 54, 50);
+
+  &:hover {
+    cursor: pointer;
+    color: red;
+  }
+}
+
+.nofavorites {
+  color: rgb(179, 54, 50);
+  margin-left: 100px;
+  margin-top: 30px;
+  font-family: 'Dancing Script', cursive;
+}

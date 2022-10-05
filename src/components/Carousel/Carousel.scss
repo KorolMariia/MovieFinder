@@ -1,0 +1,28 @@
+.movie_recommendations-title {
+  color: rgb(179, 54, 50);
+  margin-left: 100px;
+  margin-top: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+.recommendations-title {
+  text-align: center;
+  font-size: 12px;
+}
+
+.carousel {
+  margin: 30px 50px;
+}
+
+.img:hover {
+  cursor: pointer;
+  box-shadow: 0 0.5em 3rem -1rem rgba(238, 11, 11, 0.9);
+}
+
+.movie_recommendations-nofilms {
+  color: rgb(179, 54, 50);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Dancing Script", cursive;
+}

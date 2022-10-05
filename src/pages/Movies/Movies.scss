@@ -1,0 +1,18 @@
+.moviespage_wrapper {
+  display: flex;
+}
+
+.movies_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 50px;
+  margin-left: 10px;
+  padding: 20px;
+  background-color: rgb(179, 54, 50);
+  box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.filter_wrapper {
+  margin-left: 50px;
+}

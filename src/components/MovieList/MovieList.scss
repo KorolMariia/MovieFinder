@@ -1,0 +1,14 @@
+.movies_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  &-nofilms {
+    color: rgb(241, 208, 206);
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    margin: 0 auto;
+  }
+}

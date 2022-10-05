@@ -1,0 +1,80 @@
+.login_box {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+  &-title {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.user_box {
+  position: relative;
+
+  &-input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  &-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+  }
+}
+
+.user_box-input:focus ~ label,
+.user_box-input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: white;
+  font-size: 12px;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  font-size: 12px;
+
+  &::before {
+    display: inline;
+    content: '⚠ ';
+  }
+}
+
+.error-long {
+  text-align: right;
+  color: red;
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  font-size: 12px;
+
+  &::before {
+    display: inline;
+    content: '⚠ ';
+  }
+}

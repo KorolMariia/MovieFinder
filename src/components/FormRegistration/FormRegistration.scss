@@ -1,0 +1,82 @@
+.registrarion_box {  margin-top: 30px;
+  position: absolute;
+  top: 45%;
+  left: 72%;
+  width: 500px;
+  padding: 20px 30px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+  &-title {
+    font-size: 20px;
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.user_box {
+  position: relative;
+
+  &-input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  &-label {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+  }
+}
+
+.error {
+  color: red;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  font-size: 12px;
+
+  &::before {
+    display: inline;
+    content: '⚠ ';
+  }
+}
+
+.error-long {
+  text-align: right;
+  color: red;
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  font-size: 12px;
+
+  &::before {
+    display: inline;
+    content: '⚠ ';
+  }
+}
+
+.radio {
+  margin-right: 40px;
+}
+
+.eye {
+  position: absolute;
+  color: white;
+  right: 4px;
+  cursor: pointer;
+}

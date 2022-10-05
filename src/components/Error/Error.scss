@@ -1,0 +1,12 @@
+.error_wrapper {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 auto; */
+  align-items: center;
+  margin-top: 100px;
+}
+
+.error_title {
+  color: rgb(179, 54, 50);
+  font-family: "Dancing Script", cursive;
+}
