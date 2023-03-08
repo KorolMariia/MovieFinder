@@ -10,10 +10,7 @@ This app was developed using the TMDB API, providing users with the following fe
 The registration page showcases validation functionality to ensure accuracy and security.
 To access the site, users must log in through a login page.
 
-
-To start the app do (development):
-* *npm install*
-* *npm start*
+## This project was bootstrapped with Create React App.
 
 I used:
 * ReactJS: functional components and hooks
@@ -27,3 +24,8 @@ I used:
 * Redux-logger
 * Material-UI
 * Versel for Demo
+
+
+To start the app do (development):
+* *npm install*
+* *npm start*
