@@ -1,4 +1,4 @@
-# Movies Search  ReactJS
+# MovieFinder
 [Demo](https://searchmovies-opal.vercel.app/)
 
 This app was developed using the TMDB API, providing users with the following features:
