@@ -26,9 +26,9 @@ export function getFilterMovies(genreId, language, page) {
   );
 }
 
-export function getSearchMovies(name, page) {
+export function getSearchMovies(name) {
   return moviesAxios.get(
-    `https://api.themoviedb.org/3/search/movie?api_key=${ACCESS_KEY}&query=${name}&page=${page}`,
+    `https://api.themoviedb.org/3/search/movie?api_key=${ACCESS_KEY}&query=${name}`,
   );
 }
 

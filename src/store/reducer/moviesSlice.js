@@ -1,5 +1,4 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import {
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';import {
   getMovies,
   getMovie,
   getGenres,
@@ -57,6 +56,7 @@ export const fetchSearchMovies = createAsyncThunk(
       name,
       page,
     );
+    console.log(results);
     return results, total_results;
   },
 );
